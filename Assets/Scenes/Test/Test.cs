@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    private void Awake()
+    public float fireAmount = 0f;
+
+    Rigidbody rb;
+
+    private void Update()
     {
-        // Bug fixed!
-
-        int a = 1;
-
-
-        a = a > 0 ? 2 : 3;
+        GetComponent<Test>().fireAmount += 1;
     }
 }
