@@ -10,13 +10,6 @@ public class Test : MonoBehaviour
 
         int a = 1;
 
-        if (true)
-        {
-
-        }
-        else
-        {
-
-        }
+        a = a > 0 ? 2 : 3;
     }
 }
