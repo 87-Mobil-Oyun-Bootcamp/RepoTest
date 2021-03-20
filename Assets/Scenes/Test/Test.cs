@@ -10,6 +10,7 @@ public class Test : MonoBehaviour
 
         int a = 1;
 
+
         a = a > 0 ? 2 : 3;
     }
 }
