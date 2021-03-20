@@ -7,5 +7,16 @@ public class Test : MonoBehaviour
     private void Awake()
     {
         // Bug fixed!
+
+        int a = 1;
+
+        if (true)
+        {
+
+        }
+        else
+        {
+
+        }
     }
 }
